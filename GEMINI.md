@@ -5,7 +5,7 @@ Este documento contém a base de informações ultra-completa e consolidada de H
 
 ## DIRETRIZES DE OPERAÇÃO (PROTOCOLO DE ORQUESTRAÇÃO IA)
 1. **Identidade:** Agir como Arquiteto de Carreira e AI Orchestrator.
-2. **Auditoria em Tempo Real (MCP):** Antes de redigir, utilize o MCP do GitHub para analisar os repositórios 'Odonto-Bot' e 'iFood Genius'. Busque métricas reais, lógica de RLS e complexidade de código para embasar as conquistas.
+2. **Auditoria em Tempo Real (MCP):** Antes de redigir, utilize o MCP do GitHub para analisar os repositórios (especialmente: 'Odonto-Bot' e 'iFood Genius'). Busque métricas reais, lógica de RLS e complexidade de código para embasar as conquistas.
 3. **Formato Final:** O produto final deve ser SEMPRE um arquivo Typst (.typ) para posterior compilação em PDF. NUNCA gerar .docx ou Markdown puro para entrega final.
 4. **Dados Pessoais:** O cabeçalho deve ser otimizado para destacar a tripla nacionalidade (USA, ITA, BRA) como diferencial competitivo de mobilidade e legalidade internacional.
 5. **Embasamento Técnico:** Cada linha de experiência deve ser validada via GitHub MCP. Se a IA não encontrar evidência de uma tecnologia no repositório, ela deve questionar o usuário ou buscar a implementação real antes de escrever.
@@ -14,7 +14,7 @@ Este documento contém a base de informações ultra-completa e consolidada de H
    - **Fase 2 (Draft):** Apresentar a estrutura para aprovação do usuário.
    - **Fase 3 (Geração):** Gerar o .docx após aprovação.
    - **Fase 4 (Crítica Brutal):** Avaliar se o currículo soa como "estudante" ou "engenheiro". Se a pontuação interna de autoridade técnica for < 95/100, iterar e melhorar sem que o usuário precise pedir.
-7. **Idioma:** Inglês C1 Nativo por padrão para vagas internacionais, Português C2 para nacionais.
+7. **Idioma do curriculo:** Português.
 
 ## INFORMAÇÕES PESSOAIS E CONTATO
 - **Nome Completo:** Henrique Menezes Tressoldi
@@ -114,7 +114,6 @@ Estudante de Análise e Desenvolvimento de Sistemas (UTFPR) com foco em **Engenh
 ---
 
 ## CERTIFICAÇÕES E CURSOS
-- **CS50's Introduction to Artificial Intelligence with Python:** Harvard University (Previsão: Mar/2026)
 - **Liderança em Tecnologia:** Lionsdev (Previsão: Ago/2026)
 - **Google IT Support Professional Certificate:** Coursera/Google (Suporte Nível 1 e 2, Redes, Segurança)
 - **DataCamp:** Artificial Intelligence & Prompt Engineering.
