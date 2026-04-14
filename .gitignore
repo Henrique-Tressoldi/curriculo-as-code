@@ -1,0 +1,13 @@
+# PDFs compilados localmente (se for testar localmente)
+*.pdf
+
+# Arquivos gerados por processos, logs e temporários do SO
+.DS_Store
+Thumbs.db
+*.log
+
+# O que NÃO estamos ignorando (para termos clareza)
+!main.typ
+!template.typ
+!GEMINI.md
+!.github/
