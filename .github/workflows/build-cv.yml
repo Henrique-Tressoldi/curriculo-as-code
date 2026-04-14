@@ -10,6 +10,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       # 1. Pega os arquivos do seu repositório
       - name: Checkout do código
@@ -23,10 +25,9 @@ jobs:
       - name: Compilar PDF
         run: typst compile main.typ Curriculo_Henrique_Tressoldi.pdf
 
-      # 4. Disponibiliza o PDF para download como um Artefato da Build
-      - name: Upload PDF (Artefato)
-        uses: actions/upload-artifact@v4
+      # 4. Salva o PDF de volta no seu repositório automaticamente
+      - name: Auto Commit Mágico
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          name: curriculo-henrique-tressoldi
-          path: Curriculo_Henrique_Tressoldi.pdf
-          retention-days: 90
+          commit_message: "chore: update currículo PDF automático 🤖"
+          file_pattern: "Curriculo_Henrique_Tressoldi.pdf"
