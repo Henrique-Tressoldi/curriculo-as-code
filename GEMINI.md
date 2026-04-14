@@ -14,7 +14,7 @@ Este documento contém a base de informações ultra-completa e consolidada de H
    - **Fase 2 (Draft):** Apresentar a estrutura para aprovação do usuário.
    - **Fase 3 (Geração):** Gerar o .docx após aprovação.
    - **Fase 4 (Crítica Brutal):** Avaliar se o currículo soa como "estudante" ou "engenheiro". Se a pontuação interna de autoridade técnica for < 95/100, iterar e melhorar sem que o usuário precise pedir.
-7. **Idioma do curriculo:** Português.
+7. **Idioma do curriculo:** Português BR.
 
 ## INFORMAÇÕES PESSOAIS E CONTATO
 - **Nome Completo:** Henrique Menezes Tressoldi
